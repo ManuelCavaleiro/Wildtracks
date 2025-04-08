@@ -15,19 +15,20 @@
         android:contentDescription="Start Tier-Rallye" />
 
     <!-- Unsichtbarer Button: Quiz (Würfel) -->
+
+    <!-- Unsichtbarer Button: Abzeichen (Medaille) -->
+
+    <!-- Unsichtbarer Button: Einstellungen (Pfote) -->
+
     <Button
         android:id="@+id/quiz_button"
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:layout_alignParentStart="true"
         android:layout_marginStart="100dp"
-        android:layout_marginTop="440dp"
+        android:layout_marginTop="466dp"
         android:background="@android:color/transparent"
         android:contentDescription="Quiz starten" />
-
-    <!-- Unsichtbarer Button: Abzeichen (Medaille) -->
-
-    <!-- Unsichtbarer Button: Einstellungen (Pfote) -->
 
     <Button
         android:id="@+id/abzeichen_button"
@@ -35,30 +36,32 @@
         android:layout_height="70dp"
         android:layout_alignParentStart="true"
         android:layout_marginStart="244dp"
-        android:layout_marginTop="550dp"
+        android:layout_marginTop="576dp"
         android:background="@android:color/transparent"
         android:contentDescription="Abzeichen anzeigen" />
 
+    <!-- Unsichtbarer Button: Karte -->
     <Button
         android:id="@+id/einstellungen_button"
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="560dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="576dp"
         android:background="@android:color/transparent"
         android:contentDescription="Einstellungen öffnen" />
 
-    <!-- Unsichtbarer Button: Karte -->
     <Button
         android:id="@+id/karte_button"
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="440dp"
+        android:layout_marginTop="466dp"
         android:layout_marginEnd="99dp"
         android:background="@android:color/transparent"
         android:contentDescription="Karte öffnen" />
+
+
 </RelativeLayout>
 
 

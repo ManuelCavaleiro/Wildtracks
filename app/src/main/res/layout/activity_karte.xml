@@ -7,18 +7,46 @@
     android:layout_height="match_parent"
     tools:context=".KarteActivity">
 
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@android:color/white">
 
         <!-- ImageView für die Karte -->
+
         <ImageView
             android:id="@+id/karte_image"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:scaleType="fitXY"
             android:contentDescription="Karte-Bild"
+            android:scaleType="fitXY"
             android:src="@drawable/karte" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="70dp"
+            android:layout_height="63dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="36dp"
+            android:contentDescription="Zeigt die Infokarte an"
+            app:srcCompat="@android:drawable/ic_dialog_info" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="57dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="134dp"
+            android:layout_marginBottom="201dp"
+            android:alpha="0"
+            android:clickable="true"
+            android:text="Button"
+
+
+            />
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
