@@ -1,4 +1,4 @@
-# 🦊 Wildtracks – Android App
+# Wildtracks – Android App
 
 ## 📱 Overview
 
