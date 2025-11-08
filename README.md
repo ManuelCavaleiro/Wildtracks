@@ -126,5 +126,5 @@ git clone https://github.com/ManuelCavaleiro/Wildtracks.git
 ## 🏆 Credits
 
 Developed by **[Manuel Cavaleiro, German Shaipov, Kathrin Heller und Jana Petry]**  
-as part of the *Informatik 2 – Winter Semester 2024/25* module.
+as part of the *Informatik 2 – Wintersemester 2024/25* module.
 
